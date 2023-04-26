@@ -22,6 +22,6 @@ print "keys: ", keys %months, "\n";
 my $monthr = \%months;
 
 for(keys %$monthr){
-    # print("$_  = $$monthr{$_}\n");
-    print("$_  = $monthr->{$_}\n"); # same as $$monthr{$_}
+    # print("$_ = $$monthr{$_}\n");
+    print("$_ = $monthr->{$_}\n"); # same as $$monthr{$_}
 }
