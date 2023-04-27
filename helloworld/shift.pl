@@ -7,7 +7,8 @@ print "original: \@a: @a\n";
 
 while (@a) {
     print "\@a: @a\n";
-    shift @a;
+    my $a_shift = shift @a;
+    print "   \$a_shift: $a_shift\n";
 }
 
 print "\nunshift\n\n";

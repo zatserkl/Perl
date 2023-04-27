@@ -16,7 +16,7 @@ my %months= ( Jan => 1,
       Dec => 12);
 
 print keys %months, "\n";
-print "keys: ", keys %months, "\n";
+print "keys (NB: not in order): ", keys %months, "\n";
 # print keys(%months), "\n";
 
 my $monthr = \%months;
