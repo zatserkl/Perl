@@ -32,6 +32,7 @@ print "\@arr_sorted_alphabetically: @arr_sorted_alphabetically\n";
 my @arr_sorted_numerically = sort {$a <=> $b} @arr; # $a and $b are special package variables
 print "\@arr_sorted_numerically @arr_sorted_numerically\n";
 
+# operator cmp is default for string, useful for reverse sort
 my @arr_sorted_alphabetically_cmp = sort {$a cmp $b} @arr; # uses cmp for alphabetical sort
 print "\@arr_sorted_alphabetically_cmp: @arr_sorted_alphabetically_cmp\n";
 
